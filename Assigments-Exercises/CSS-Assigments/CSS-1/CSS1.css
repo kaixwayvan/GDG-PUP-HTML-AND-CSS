@@ -3,14 +3,14 @@
   font-family: "Poppins", sans-serif;
 }
 
-h1 {
+h1.fb-text-style {
   color: #1877f2;
   font-size: 50px;
   font-weight: 700;
   line-height: 1.2;
 }
 
-p {
+p.fb-text-style {
   color: grey;
   font-style: italic;
   font-size: 20px;
