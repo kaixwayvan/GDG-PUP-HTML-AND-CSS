@@ -1,176 +1,158 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /* General Reset */
 /* Step 1: Reset default margins, padding, and box sizing for all elements */
-:root {
-  --bg-light: #1f1f1f;
-  --prime-color: #f0ffff;
-  --sec-text-color: #787878;
-}
 * {
-  margin: 0;
-  padding: 0;
-  /* box-sizing: border-box; */
+  /* margin: ; 
+    padding: ; 
+    box-sizing: ; */
 }
 
 /* Step 2: Set global styles for the body */
 body {
-  font-family: "Outfit", serif;
-  line-height: 1.7;
-  scroll-behavior: smooth;
+  /* font-family: ; 
+    line-height: ; 
+    color: ; 
+    background-color: ; 
+    scroll-behavior: ; */
 }
 
 /* Navigation Bar Styling */
 /* Step 3: Navigation Bar Styles */
 .navbar {
-  background-color: var(--bg-light);
-  color: rgb(255, 204, 51);
-  padding: 1%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-  height: auto;
-  position: relative;
-  z-index: 2;
+  /* background-color: ; 
+    color: ; 
+    padding: ; 
+    box-shadow: ; */
 }
 
 /* Step 4: Navbar Container Styles */
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0.5% 0.5%;
-  max-width: 100%;
-  flex: 1;
+.navbar--container {
+  /* display: ; 
+    justify-content: ; 
+    align-items: ; 
+    max-width: ; 
+    margin: ; */
 }
 
 /* Step 5: Logo Container Styles */
 .logo-container {
-  display: flex;
-  align-items: center;
-  gap: 3%;
-  padding-left: 4%;
-  justify-content: space-between;
+  /* display: ; 
+    align-items: ; 
+    gap: ; */
 }
 
 /* Step 6: Logo Image Styles */
 .logo-img-container img {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
+  /* width: ; 
+    height: ; 
+    border-radius: ; 
+    object-fit: ; */
 }
 
 /* Step 7: Logo Text Styles */
-.logo-container h1 {
-  color: rgb(255, 204, 51);
-  margin-left: 3%;
-  margin-right: 10%;
+.logo-container p {
+  /* font-size: ; 
+    font-weight: ; 
+    color: ; */
 }
 
 /* Step 8: Navigation Links Container Styles */
 .nav-links-container {
-  display: flex;
-  gap: 40%;
-  list-style: none;
-  justify-content: space-between;
-  margin-right: 10%;
+  /* display: ; 
+    gap: ; 
+    list-style: ; */
 }
 
 /* Step 9: Navigation Link Styles */
 .nav-links-container a {
-  font-size: 140%;
-  color: var(--prime-color);
-  text-decoration: none;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 300;
-  transition: color 0.3s, transform 0.3s;
+  /* color: ; 
+    text-decoration: ; 
+    font-weight: ; 
+    transition: ; */
 }
 
 /* Step 10: Navigation Link Hover Styles */
 .nav-links-container a:hover {
-  color: #00bfae;
-  transform: scale(1.1);
+  /* color: ; */
 }
 
 /* Header Banner Styling */
 /* Step 11: Header Banner Container Styles */
 .header-banner-container {
-  position: relative;
-  background: linear-gradient(90deg, #06323f, #006d6b, #e25822, #fc9003);
-  color: beige;
-  text-align: center;
-  padding: 7%;
-  animation: fadeIn 1s ease-in-out;
-  z-index: 1;
+  /* background: ; 
+    color: ; 
+    text-align: ; 
+    padding: ; 
+    border-radius: ; */
 }
 
 /* Step 12: Header Banner Heading Styles */
 .header-banner-container h1 {
-  font-size: 250%;
-  font-weight: 900;
-  margin-bottom: 1%;
+  /* font-size: ; 
+    font-weight: ; 
+    margin-bottom: ; */
 }
 
 /* Step 13: Header Banner Paragraph Styles */
 .header-banner-container p {
-  font-style: italic;
-  font-size: large;
-  text-shadow: 1px 1px 6px var(--bg-light);
-  font-size: 1.1rem;
-  margin: 15px;
-  line-height: 1.7;
+  /* font-size: ; 
+    max-width: ; 
+    margin: ; 
+    line-height: ; */
 }
 
 /* Main Section */
 /* Step 14: Main Content Container Styles */
 .main {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  padding: 40px;
+  /* display: ; 
+    flex-wrap: ; 
+    gap: ; 
+    max-width: ; 
+    margin: ; 
+    padding: ; */
 }
 
 /* Step 15: Blog Post Container Styles */
 .main-posts {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  /* flex: ; 
+    display: ; 
+    flex-direction: ; 
+    gap: ; */
 }
 
 /* Step 16: Individual Blog Post Styles */
 .main-posts article {
-  display: flex;
-  align-items: flex-start;
-  background-color: var(--bg-light);
-  color: var(--prime-color);
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-  cursor: pointer;
+  /* display: ; 
+    background-color: ; 
+    border: ; 
+    border-radius: ; 
+    overflow: ; 
+    box-shadow: ; */
 }
 
 /* Step 17: Blog Post Image Styles */
 .main-posts article img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
+  /* width: ; 
+    height: ; 
+    object-fit: ; */
 }
 
 /* Step 18: Blog Post Content Container Styles */
 .main-posts article div {
-  padding: 30px;
+  /* padding: ; */
 }
 
 /* Step 19: Blog Post Heading Styles */
 .main-posts h2 {
-  color: cornflowerblue;
-  margin-bottom: 12px;
+  /* font-size: ; 
+    color: ; 
+    margin-bottom: ; */
 }
 
 /* Step 20: Blog Post Metadata Styles */
 .post-meta {
-  font-style: italic;
-  font-size: 1rem;
-  color: var(--sec-text-color);
-  margin-bottom: 30px;
+  /* font-size: ; 
+    color: ; 
+    margin-bottom: ; */
 }
 
 /* Sidebar Styling */
